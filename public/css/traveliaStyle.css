@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monofett&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+h1, h2, h3, h4, h5, h6, img, a, ul, li, * {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*header part starts*/
+.header-part ul li {
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+
+.header-part ul li a {
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  color: #fff;
+}
+
+.header-part ul li .dropdown {
+  position: relative;
+}
+
+.header-part ul li .dmenu1 {
+  position: absolute;
+  top: 70%;
+}
+
+.header-part ul li .dropdown-menu a {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-part ul li a:hover {
+  color: #658af0;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.header-part ul li .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.header-part .bell, .header-part .account a {
+  color: #ddd;
+  font-size: 20px;
+}
+
+.header-part .bell:hover, .header-part .account a:hover {
+  color: #15cf40;
+}
+
+.header-part .account-menu a {
+  font-size: 15px;
+}
+
+/*header part ends*/
+/*travelia profile starts*/
+.traveller-profile {
+  width: 35%;
+  margin: 0 auto;
+}
+
+/*travelia profile ends*/
+/*picture part starts*/
+.picture-part img {
+  height: 700px;
+}
+
+.picture-part .carousel-item h5 {
+  font-family: 'Courgette', cursive;
+  color: #caccce;
+  font-size: 56px;
+  text-shadow: 0px 0px 25px #000;
+  background: rgba(0, 0, 0, 0.473);
+  display: inline;
+  border-radius: 40%;
+}
+
+.picture-part .carousel-item p {
+  background: rgba(0, 0, 0, 0.575);
+  display: inline;
+  border-radius: 40%;
+}
+
+/*picture part ends*/
+/*holiday part starts*/
+.holiday-part .items {
+  padding-top: 40px;
+  background: #ecd2d2;
+}
+
+.holiday-part .items h3 {
+  font-family: 'Playball', cursive;
+  font-size: 29px;
+  font-weight: bold;
+  color: #0d8bd4;
+}
+
+.holiday-part .items h1 {
+  font-family: 'Monofett', cursive;
+  color: #250303;
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.holiday-part .items2 .row {
+  margin-bottom: 15px;
+}
+
+.holiday-part .items2 .place figure img {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  width: 210px;
+  height: 210px;
+  position: relative;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.holiday-part .items2 .place h3 {
+  position: absolute;
+  top: 40%;
+  color: #f8f8f8;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font-family: 'Lobster', cursive;
+}
+
+.holiday-part .items2 .place figure:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.holiday-part .items2 img {
+  width: 260px;
+  height: 220px;
+}
+
+.holiday-part .items2 .project {
+  margin-bottom: 20px;
+}
+
+.holiday-part .items2 .project__card {
+  position: relative;
+  -webkit-transition: -webkit-box-shadow .3s ease;
+  transition: -webkit-box-shadow .3s ease;
+  transition: box-shadow .3s ease;
+  transition: box-shadow .3s ease, -webkit-box-shadow .3s ease;
+  -webkit-box-shadow: 0 10px 30px transparent;
+          box-shadow: 0 10px 30px transparent;
+}
+
+.holiday-part .items2 .project__card.hover-in {
+  transition: -webkit-transform .2s ease-out;
+  -webkit-transition: -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out;
+  transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+}
+
+.holiday-part .items2 .project__card.hover-out {
+  transition: -webkit-transform .2s ease-in;
+  -webkit-transition: -webkit-transform .2s ease-in;
+  transition: transform .2s ease-in;
+  transition: transform .2s ease-in, -webkit-transform .2s ease-in;
+}
+
+.holiday-part .items2 .project:hover .project__card {
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.holiday-part .items2 .project:hover .project__image:after {
+  opacity: 1;
+}
+
+.holiday-part .items2 .project:hover .project__detail {
+  border-width: 10px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.holiday-part .items2 .project:hover .project__title, .holiday-part .items2 .project:hover .project__category {
+  -webkit-transform: translateY(0) scale(1);
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.holiday-part .items2 .project:hover .project__title {
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.holiday-part .items2 .project__detail {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transform: translateZ(30px);
+  transform: translateZ(30px);
+  border: 0 solid #cbd80f;
+  -webkit-transition: border .4s ease;
+  transition: border .4s ease;
+}
+
+.holiday-part .items2 .project__title {
+  margin: 0 0 10px;
+  font-size: 36px;
+  font-weight: 700;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  opacity: 0;
+  -webkit-transform: translateY(40px) scale(0);
+  transform: translateY(40px) scale(0);
+  will-change: transform;
+}
+
+.holiday-part .items2 .project__title a {
+  color: red;
+}
+
+.holiday-part .items2 .project__category {
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+  -webkit-transform: translateY(40px) scale(0);
+  transform: translateY(40px) scale(0);
+  will-change: transform;
+}
+
+.holiday-part .items2 .project__category a {
+  color: white;
+  font-size: 1.3em;
+}
+
+/*holiday part ends*/
+/*plan part starts*/
+.plan-part {
+  background: url(/images/travelia/stickyimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.plan-part .items {
+  margin-bottom: 15px;
+}
+
+.plan-part .items h2 {
+  font-family: 'Playball', cursive;
+  font-weight: bold;
+  color: #30abf1;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.plan-part .items h1 {
+  font-family: 'Courgette', cursive;
+  padding-bottom: 100px;
+  color: #fff;
+}
+
+.plan-part .items2 {
+  padding-top: 15px;
+}
+
+.plan-part .items2 .col-md-4 {
+  background: #6d6c6c;
+  padding-bottom: 35px;
+  border: 2px solid #fff;
+  margin-bottom: 55px;
+}
+
+.plan-part .items2 i {
+  font-size: 48px;
+  padding-top: 8px;
+}
+
+/*plan part ends*/
+/*footer part starts*/
+.footer-part {
+  background: #333;
+}
+
+.footer-part .items {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-part .items img {
+  height: 130px;
+  border-radius: 40px;
+}
+
+.footer-part .items .info {
+  padding-top: 20px;
+}
+
+.footer-part .items .info h6 {
+  padding-top: 8px;
+  color: #999;
+  display: inline-block;
+}
+
+.footer-part .items .info h6:hover {
+  color: #26e265;
+  cursor: pointer;
+}
+
+.footer-part .items .info .icons {
+  padding-top: 10px;
+}
+
+.footer-part .items .info .icons i {
+  font-size: 40px;
+  background: #000;
+  border-radius: 70%;
+  padding: 6px;
+}
+
+.footer-part .items .info .icons i:hover {
+  cursor: pointer;
+  color: #26e265;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+/*footer part ends*/
+/*# sourceMappingURL=traveliaStyle.css.map */

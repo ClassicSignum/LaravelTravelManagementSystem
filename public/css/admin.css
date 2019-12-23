@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monofett&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+h1, h2, h3, h4, h5, h6, img, a, ul, li, * {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*common css ends*/
+/*header part starts*/
+.header-part .bell {
+  color: #ddd;
+  font-size: 20px;
+}
+
+/*header part ends*/
+/*admin dash part starts*/
+.admin-dash-part .col-md-2 {
+  padding-left: 0px;
+}
+
+.admin-dash-part .col-md-2 .items {
+  background: #212529;
+}
+
+.admin-dash-part .col-md-2 .items h4 {
+  font-family: 'Playball', cursive;
+  color: #ddd;
+}
+
+.admin-dash-part .col-md-2 .items img {
+  padding: 20px 0px;
+  border-radius: 50%;
+}
+
+.admin-dash-part .col-md-2 .items .btns {
+  border-top: 1px solid #bbb;
+  width: 107%;
+}
+
+.admin-dash-part .col-md-2 .items .btns i {
+  color: #bbb;
+  font-size: 18px;
+  padding: 11px 0px;
+}
+
+.admin-dash-part .col-md-2 .items .btns a {
+  font-size: 18px;
+  color: #bbb;
+  font-family: 'Righteous', cursive;
+}
+
+.admin-dash-part .col-md-2 .items .btns .travel-font a {
+  font-size: 17px;
+}
+
+.admin-dash-part .col-md-2 .items .btns:hover {
+  border-top: 1px solid #fff;
+}
+
+.admin-dash-part .col-md-2 .items .btns:hover i, .admin-dash-part .col-md-2 .items .btns:hover a {
+  color: #fff;
+}
+
+.admin-dash-part .items2 form {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+/*admin dash part ends*/
+/*# sourceMappingURL=admin.css.map */

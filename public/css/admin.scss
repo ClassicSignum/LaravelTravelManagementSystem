@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+h1,h2,h3,h4,h5,h6,img,a,ul,li,*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/*common css ends*/
+
+/*header part starts*/
+.header-part{
+   
+    .bell{
+        color: #ddd;
+        font-size: 20px;
+    }
+}
+/*header part ends*/
+
+/*admin dash part starts*/
+.admin-dash-part{
+    .col-md-2{
+        padding-left: 0px;
+        .items{
+            background: #212529;
+            h4{
+
+                font-family: 'Playball', cursive; 
+
+                color: #ddd;
+
+            }
+            img{
+                padding:20px 0px;
+                border-radius: 50%;
+               
+            }
+            
+            
+            .btns{
+                border-top: 1px solid #bbb; 
+                width: 107%;
+                i{
+                    color: #bbb;
+                    font-size: 18px;
+                    padding: 11px 0px;
+                }
+                a{
+                    font-size: 18px;
+                    color: #bbb;
+                    font-family: 'Righteous', cursive;
+                }
+                .travel-font a{
+                    font-size: 17px;
+                }
+                
+                
+            }
+            .btns:hover{
+                border-top: 1px solid #fff; 
+                i,a{
+                    color: #fff;
+                }
+                
+           }
+
+            
+        }
+
+        
+    }
+    .items2{
+        form{
+            width: 40%;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+    }
+}
+/*admin dash part ends*/

@@ -1,0 +1,23 @@
+.destination-part .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.destination-part .col-md-4 img {
+  width: 440px;
+}
+
+.hotel-part .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hotel-part img {
+  width: 400px;
+}
+
+.booking-part {
+  width: 500px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=travellerDest.css.map */
